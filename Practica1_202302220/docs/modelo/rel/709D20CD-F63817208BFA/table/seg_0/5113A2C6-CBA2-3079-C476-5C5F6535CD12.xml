@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5113A2C6-CBA2-3079-C476-5C5F6535CD12" name="Operan">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Centro_de_Evaluación_centro_id" id="6E895EDB-D778-8F6A-2527-ACFBCC551A6E">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D47DA03-EDF8-71CB-48E9-E6BE53156AC5" referredColumn="821914F4-4230-F465-4DD3-8337C349DB53"/>
+</associations>
+</Column>
+<Column name="Escuela_de_Automovilismo_escuela_id" id="9B184E4F-BCA2-A67D-A1A7-51627718AADA">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FC6A48F-E94B-1FE4-FDFF-777EE033F5B8" referredColumn="22C2FDAF-B15C-ED54-522C-97E719D290FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="831486A3-B7BE-D8DE-2777-D03FD6D18D8F" name="Operan_PK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E895EDB-D778-8F6A-2527-ACFBCC551A6E"/>
+<colUsage columnID="9B184E4F-BCA2-A67D-A1A7-51627718AADA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEED2EA8-6F5E-5646-007C-C43E1039D454" name="Operan_Centro_de_Evaluación_FK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>3066D8AF-04C9-8D6B-A8E8-6228AADBA7DB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E895EDB-D778-8F6A-2527-ACFBCC551A6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A0BFC91-F744-476F-395C-C497464FD0FD" name="Operan_Escuela_de_Automovilismo_FK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>3066D8AF-04C9-8D6B-A8E8-6228AADBA7DB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B184E4F-BCA2-A67D-A1A7-51627718AADA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

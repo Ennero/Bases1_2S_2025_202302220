@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4858166B-C80A-FA12-B4A9-0D3977D4FDE6" name="Examen_Pregunta_Respuesta">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:34:57 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="examen_id" id="8DB464D7-C8D2-BA69-F871-CB557D6FCDEA">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:35:11 UTC</createdTime>
+<generatorID>DAE7ABE0-3DC3-B07E-51AF-E219E89D7BFE</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<referedAttribute>54A8F87A-127D-37A6-87FF-5DDFA9A0F72B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

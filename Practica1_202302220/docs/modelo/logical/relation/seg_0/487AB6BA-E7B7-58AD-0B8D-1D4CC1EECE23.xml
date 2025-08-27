@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Opera" directorySegmentName="seg_0" id="487AB6BA-E7B7-58AD-0B8D-1D4CC1EECE23">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:19:18 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<sourcePk>C304B5FD-DF85-35F0-586D-996A9F07A012</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B880F758-5749-CD2C-0619-1BE226ADEB31</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7D6BEC15-FB31-7C47-AE28-9E4BE429C06F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D6BEC15-FB31-7C47-AE28-9E4BE429C06F" name="Instructor">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:02:56 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="instructor_id" id="6DB1DF18-D433-A464-5688-0E9FE107ADB5">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:03:03 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="B96A4C9E-8803-5854-6A3B-84339350AB04">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:03:13 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificacion" id="17474BB8-3EDE-1FAD-D1F9-5B64438ACA1D">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:03:24 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="evaluacion_practica_id" id="31ACE7D8-5D4E-2931-6FBF-9B9809F384EE">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:18:35 UTC</createdTime>
+<generatorID>C0015B4B-CB7F-3E53-0E9C-DE260AFB9A07</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<referedAttribute>8DF0D596-F36B-C2C5-CDB1-CF0E41C84921</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="centro_id" id="522FEE5E-5D4F-3E10-9ACD-1480B7CD6FD7">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:19:18 UTC</createdTime>
+<generatorID>487AB6BA-E7B7-58AD-0B8D-1D4CC1EECE23</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<referedAttribute>6022392C-065B-78A7-2848-AC15BED93779</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0EB1BB1A-C21E-5D00-E205-40A0C7EFA955" name="Instructor PK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:03:26 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6DB1DF18-D433-A464-5688-0E9FE107ADB5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

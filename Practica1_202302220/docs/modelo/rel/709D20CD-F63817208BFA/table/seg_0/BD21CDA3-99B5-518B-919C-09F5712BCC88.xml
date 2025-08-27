@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD21CDA3-99B5-518B-919C-09F5712BCC88" name="Instructor">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>7D6BEC15-FB31-7C47-AE28-9E4BE429C06F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="instructor_id" id="E544ECDD-D5D4-19C0-2EF8-B66D79F2DA33">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>6DB1DF18-D433-A464-5688-0E9FE107ADB5</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C77C5817-8D4A-920B-0781-3DC99D74EEFD">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>B96A4C9E-8803-5854-6A3B-84339350AB04</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="identificacion" id="0CCA9B9F-3FBA-742B-78C8-E3549F1C5753">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>17474BB8-3EDE-1FAD-D1F9-5B64438ACA1D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Evaluación_Práctica_evaluacion_practica_id" id="91840F9F-D758-9C4D-C744-7B1C103F4F1F">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>31ACE7D8-5D4E-2931-6FBF-9B9809F384EE</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E6ACD2C-6691-886B-3C84-D47AC4AD8573" referredColumn="CC3C7628-C49D-086C-6033-B943D1FACCCF"/>
+</associations>
+</Column>
+<Column name="Centro_de_Evaluación_centro_id" id="33187485-F95A-8DF7-1D5F-E2D27A1FEC7E">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>522FEE5E-5D4F-3E10-9ACD-1480B7CD6FD7</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BB5B501-88DA-8185-CBC4-BD12E3CFC272" referredColumn="821914F4-4230-F465-4DD3-8337C349DB53"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="150BC63D-1616-AAB1-EB88-C03B421013F4" name="Instructor_PK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>0EB1BB1A-C21E-5D00-E205-40A0C7EFA955</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E544ECDD-D5D4-19C0-2EF8-B66D79F2DA33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0762056E-2CCD-981E-DD5F-DAA27E35C71F" name="Instructor_Centro_de_Evaluación_FK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>487AB6BA-E7B7-58AD-0B8D-1D4CC1EECE23</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33187485-F95A-8DF7-1D5F-E2D27A1FEC7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F70F5883-680A-C08A-F095-631992D25967" name="Instructor_Evaluación_Práctica_FK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>C0015B4B-CB7F-3E53-0E9C-DE260AFB9A07</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91840F9F-D758-9C4D-C744-7B1C103F4F1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

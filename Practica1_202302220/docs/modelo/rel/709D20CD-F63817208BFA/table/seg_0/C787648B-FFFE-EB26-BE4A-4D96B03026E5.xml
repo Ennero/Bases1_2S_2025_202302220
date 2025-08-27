@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C787648B-FFFE-EB26-BE4A-4D96B03026E5" name="Examen_Pregunta_Respuesta">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>4858166B-C80A-FA12-B4A9-0D3977D4FDE6</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Examen_examen_id" id="D9827BAB-D736-631F-4280-E3B56B51A390">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>8DB464D7-C8D2-BA69-F871-CB557D6FCDEA</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A848FB67-1FD0-4578-2635-8F55E861DCBA" referredColumn="21A5BA72-4CD5-3612-88FD-AFB97A457DCF"/>
+</associations>
+</Column>
+<Column name="Examen_Pregunta_Respuesta_ID" id="C726D1CC-4EE6-9A3E-3193-693B38433F44">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC7A558D-EE6A-36D0-2364-CB14128F56F4" name="Examen_Pregunta_Respuesta_PK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C726D1CC-4EE6-9A3E-3193-693B38433F44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA0012D8-BF7C-0672-FD86-E8530A235D9D" name="Examen_Pregunta_Respuesta_Examen_FK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>DAE7ABE0-3DC3-B07E-51AF-E219E89D7BFE</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9827BAB-D736-631F-4280-E3B56B51A390"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

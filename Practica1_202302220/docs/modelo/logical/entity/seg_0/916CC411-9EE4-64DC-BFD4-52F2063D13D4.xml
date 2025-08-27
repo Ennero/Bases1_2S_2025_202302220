@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="916CC411-9EE4-64DC-BFD4-52F2063D13D4" name="Evaluación Práctica">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:00:19 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="evaluacion_practica_id" id="8DF0D596-F36B-C2C5-CDB1-CF0E41C84921">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:00:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntuacion" id="7C4E132A-11C7-286D-AEF7-240F539562A4">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:00:48 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="examen_id" id="05146906-ED68-4F74-BF9A-7C7ABA242834">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:14:49 UTC</createdTime>
+<generatorID>99CE9907-038B-0F2A-A181-6281F3FE9043</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<referedAttribute>54A8F87A-127D-37A6-87FF-5DDFA9A0F72B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="985FE330-F3BD-1147-8B8B-A771A71994D8" name="Evaluación Práctica PK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:00:47 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8DF0D596-F36B-C2C5-CDB1-CF0E41C84921</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

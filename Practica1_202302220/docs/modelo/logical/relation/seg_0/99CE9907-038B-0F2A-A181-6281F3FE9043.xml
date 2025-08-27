@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="consta de " directorySegmentName="seg_0" id="99CE9907-038B-0F2A-A181-6281F3FE9043">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:14:49 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<sourcePk>0C20AF2E-82ED-C644-4300-D36ED3358D37</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B4FB81A6-9FA8-F00E-B41B-5D69C9FD05B3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>916CC411-9EE4-64DC-BFD4-52F2063D13D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

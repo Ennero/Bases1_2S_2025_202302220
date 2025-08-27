@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Opta" directorySegmentName="seg_0" id="19D86D51-4F94-D736-ECAD-866D63BEFF43">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:13:48 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<sourcePk>7947489B-437D-2C2D-1C4B-57521E055233</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AE46012C-EF8A-44EE-F6BE-FA97407B715F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B4FB81A6-9FA8-F00E-B41B-5D69C9FD05B3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

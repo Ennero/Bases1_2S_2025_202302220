@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84983584-78AB-41DB-A003-8BB8FB1FAB4A" name="Respuesta_Teórica">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>CBD79CF7-3372-E5E1-FC35-A062DBF713FD</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="respuesta_teorica_id" id="D0027964-D3AE-262A-D491-76B99C5B0266">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>AECDB927-78D8-F623-D35D-CB9AC5AB8A09</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="texto" id="34260A93-180B-4D72-560E-372B07FC337E">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>936ECE6E-EDE2-E184-A416-C0E129E96B15</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imagen" id="B2E77D53-B9E6-ACEA-F10F-C3D64D1A7DAE">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>4E74C0CD-37BD-6D44-0E86-901C3B9F143B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="es_correcta" id="E0DA49F8-2060-4D0A-3276-1C88546A8786">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>6056FD95-E71D-6A3A-BB7D-55027169DD70</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntuacion" id="1DF0998E-2352-4619-4DF1-DD5CDB751913">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>95D28C7A-55A9-9E52-BF11-C20194882588</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pregunta_Teórica_pregunta_teorica_id" id="95487FD8-195B-BBD4-FA4D-DBDDFC95FBE2">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>4CAC905B-F468-5E3E-1FC6-31B0A8E4459E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87089490-42D6-5B2F-9502-F39900211F39" referredColumn="D892196A-A557-E657-D85E-74718501D7A8"/>
+</associations>
+</Column>
+<Column name="Examen_Pregunta_Respuesta_Examen_Pregunta_Respuesta_ID" id="8C8B4062-3FC8-1E51-5AA8-FA9D47CD77AA">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1DD99DA-7058-B419-1F37-5FC6089FFE4E" referredColumn="C726D1CC-4EE6-9A3E-3193-693B38433F44"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62C7EB87-3034-CB6F-0BD6-B551C7B669BA" name="Respuesta_Teórica_PK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>F52388FB-B98F-74CD-4AEF-94C6D4DE2541</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0027964-D3AE-262A-D491-76B99C5B0266"/>
+<colUsage columnID="95487FD8-195B-BBD4-FA4D-DBDDFC95FBE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3E7EF9E-12A6-4227-E321-929D8E5FE7FA" name="Respuesta_Teórica_Pregunta_Teórica_FK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>430B1E21-94E4-DA18-61E6-189E7341A379</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95487FD8-195B-BBD4-FA4D-DBDDFC95FBE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9809FCDE-163D-DEEE-00A8-712BF06536C4" name="Respuesta_Teórica_Examen_Pregunta_Respuesta_FK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>94FE86B1-53EF-A0D2-EF4B-3CAE0E110B01</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C8B4062-3FC8-1E51-5AA8-FA9D47CD77AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

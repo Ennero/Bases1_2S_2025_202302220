@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="atiende" directorySegmentName="seg_0" id="BE8BA1B8-E8F9-B13D-A48F-CD6D49FC4DBE">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:15:50 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<sourcePk>0C20AF2E-82ED-C644-4300-D36ED3358D37</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B4FB81A6-9FA8-F00E-B41B-5D69C9FD05B3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0F004227-A493-80EA-364A-A990174DF668</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

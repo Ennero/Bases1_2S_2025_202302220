@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="superviza" directorySegmentName="seg_0" id="C0015B4B-CB7F-3E53-0E9C-DE260AFB9A07">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:18:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="709D20CD-0D25-44F3-DA92-F63817208BFA" value="true"/>
+</engineerTo>
+<sourcePk>985FE330-F3BD-1147-8B8B-A771A71994D8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>916CC411-9EE4-64DC-BFD4-52F2063D13D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7D6BEC15-FB31-7C47-AE28-9E4BE429C06F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

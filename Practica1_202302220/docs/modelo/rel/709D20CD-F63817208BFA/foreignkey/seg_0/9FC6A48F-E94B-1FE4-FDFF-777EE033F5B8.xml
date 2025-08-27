@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9FC6A48F-E94B-1FE4-FDFF-777EE033F5B8" containerWithKeyObject="5113A2C6-CBA2-3079-C476-5C5F6535CD12" localFKIndex="9A0BFC91-F744-476F-395C-C497464FD0FD" name="Operan_Escuela_de_Automovilismo_FK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-08-11 05:37:36 UTC</createdTime>
+<generatorID>3066D8AF-04C9-8D6B-A8E8-6228AADBA7DB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>Escuela_de_Automovilismo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5CF64BB-1F17-532D-A643-F5196E54E0D1</referredTableID>
+<keyObject>1A60823B-E80E-684D-BDC8-BCBE825BB23A</keyObject>
+<referredKeyID>1A60823B-E80E-684D-BDC8-BCBE825BB23A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>escuela_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
