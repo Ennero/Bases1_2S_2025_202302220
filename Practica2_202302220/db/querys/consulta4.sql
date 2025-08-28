@@ -1,0 +1,34 @@
+
+WITH
+  CONTEO_ACIERTOS AS (
+    SELECT
+      p.ID_PREG,
+      p.PREG_TEXTO,
+      COUNT(*) AS NUMERO_ACIERTOS,
+      RANK() OVER (
+        ORDER BY
+          COUNT(*) DESC
+      ) AS RANK_ACIERTOS
+    FROM REGISTRO r
+      JOIN EXAMEN e
+      ON r.ID_REGISTRO = e.REGISTRO_ID_REGISTRO
+      JOIN RES_USU ru
+      ON e.ID_EXAMEN = ru.EXAMEN_ID_EXAMEN
+      JOIN PREG p
+      ON ru.PREG_ID_PREG = p.ID_PREG
+    WHERE
+      -- Se cuentan solo las respuestas correctas
+      ru.RES = p.RES
+      AND TRUNC(r.FECHA) BETWEEN TO_DATE('01-08-2022', 'DD-MM-YYYY') AND TO_DATE('31-08-2025', 'DD-MM-YYYY')
+    GROUP BY
+      p.ID_PREG,
+      p.PREG_TEXTO
+  )
+
+SELECT
+  ID_PREG,
+  PREG_TEXTO,
+  NUMERO_ACIERTOS
+FROM CONTEO_ACIERTOS
+WHERE
+  RANK_ACIERTOS = 1;
