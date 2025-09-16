@@ -46,3 +46,32 @@ FROM (
 -- Se filtra el resultado de la subconsulta para mostrar solo las preguntas
 WHERE
   RANK_ACIERTOS = 1;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

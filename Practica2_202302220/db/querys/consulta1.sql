@@ -85,3 +85,27 @@ LEFT JOIN (
 WHERE
   -- TRUNC(r.FECHA) elimina la parte de la hora de la fecha
   TRUNC(r.FECHA) = TO_DATE('13-03-2023', 'DD-MM-YYYY');
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

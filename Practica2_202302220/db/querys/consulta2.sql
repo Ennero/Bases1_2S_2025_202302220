@@ -69,3 +69,33 @@ WHERE
 -- Se ordenan los resultados por fecha, del más reciente al más antiguo.
 ORDER BY
   r.FECHA DESC;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
