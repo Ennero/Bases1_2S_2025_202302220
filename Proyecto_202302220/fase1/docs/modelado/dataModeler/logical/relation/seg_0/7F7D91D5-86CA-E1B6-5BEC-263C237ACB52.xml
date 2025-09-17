@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IMPARTE" directorySegmentName="seg_0" id="7F7D91D5-86CA-E1B6-5BEC-263C237ACB52">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:25:41 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<sourcePk>90BCC592-BE9C-2FA5-5E46-943815996296</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E1315FC9-1044-E4A7-AF7B-B853297CB42F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4A6254CF-E551-FC97-DA75-D8BD8E5A45F1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="376D8BEB-5DD4-D2D0-EB35-EB0E9B485E74" name="ASIGNACION">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 22:51:05 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="zona" id="D3EAA64E-62E3-CADC-30D1-7AF756286562">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 22:51:15 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nota_final" id="91158E9C-D2B0-467D-CD2F-F37F97364780">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 22:51:28 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="carnet" id="BEDBAB91-D0C8-E732-2606-B3CCA161014C">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:04:41 UTC</createdTime>
+<generatorID>80CBF810-A7F1-3E5E-5CF5-C7176221230B</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<referedAttribute>847449DF-4EDF-775C-3BAD-81C7C88A34A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio" id="097AFE25-D600-7C9E-2DA1-992AAD985DA1">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:04:58 UTC</createdTime>
+<generatorID>A5F041CF-102D-C639-B8E7-D2BC7E0CD7C3</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<referedAttribute>3FA2085D-307C-8F2D-1BE7-F3F1E1AE8CE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_seccion" id="59D20FBD-64A2-4186-D45B-FEBA170E1BC3">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:04:58 UTC</createdTime>
+<generatorID>A5F041CF-102D-C639-B8E7-D2BC7E0CD7C3</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<referedAttribute>07C5F03D-9455-050D-8E87-1C59E9068C06</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciclo" id="74074027-A36F-A688-5093-8014E7C0595A">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:04:58 UTC</createdTime>
+<generatorID>A5F041CF-102D-C639-B8E7-D2BC7E0CD7C3</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<referedAttribute>94025CB8-F1C9-3497-25D3-C9B653E48030</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_curso" id="CF33807E-AC03-D731-61A4-29CC0426D0E2">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:04:58 UTC</createdTime>
+<generatorID>A5F041CF-102D-C639-B8E7-D2BC7E0CD7C3</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<referedAttribute>EEBF1B86-48C8-87BC-3469-7C3D6F86B03C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CCB2E046-8540-27AF-9279-ACB8B5833BA4" name="ASIGNACION PK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:00:03 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BEDBAB91-D0C8-E732-2606-B3CCA161014C</attributeRef>
+<attributeRef>097AFE25-D600-7C9E-2DA1-992AAD985DA1</attributeRef>
+<attributeRef>59D20FBD-64A2-4186-D45B-FEBA170E1BC3</attributeRef>
+<attributeRef>74074027-A36F-A688-5093-8014E7C0595A</attributeRef>
+<attributeRef>CF33807E-AC03-D731-61A4-29CC0426D0E2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DB2A2FC-B25C-8710-E267-E7E57065C62D" name="HORARIO">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 23:02:10 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_dia" id="0DCE6C1E-97A0-7CEF-AB3E-1AD3017E279B">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 23:18:22 UTC</createdTime>
+<generatorID>031A7C40-8DBF-497C-0729-3AA90615DD37</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<referedAttribute>3E5B87B5-C4CC-E94B-D347-BF03EDB5B9CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_periodo" id="FD34A19A-F958-D196-D43C-DF4493B6216E">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 23:18:48 UTC</createdTime>
+<generatorID>F7C5BF4C-327F-E17B-59A9-84042B2F8A1B</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<referedAttribute>D77BE373-666C-6B49-93C4-24B344DA86DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_edificio" id="50D40914-7612-CFD4-F089-FD63A98E47BD">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 23:18:56 UTC</createdTime>
+<generatorID>AD46DCA3-B797-8EFA-C102-000E582DEA30</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<referedAttribute>DCA4BE46-CF4D-2AF7-C099-B18A216F68E4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_salon" id="717EE930-4575-CE06-ECE7-9882A5F31668">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 23:18:56 UTC</createdTime>
+<generatorID>AD46DCA3-B797-8EFA-C102-000E582DEA30</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<referedAttribute>40FCF85C-2E85-EBF3-8202-7336A23BDBA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio" id="B4EEBFAA-29AD-B34A-5D9B-368BB652DD31">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 23:19:29 UTC</createdTime>
+<generatorID>5DA7F8BD-E665-CF63-205D-EB2A86F24994</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<referedAttribute>3FA2085D-307C-8F2D-1BE7-F3F1E1AE8CE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_seccion" id="7D380F8A-4C84-65FC-52FD-D434DC98C6E7">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 23:19:29 UTC</createdTime>
+<generatorID>5DA7F8BD-E665-CF63-205D-EB2A86F24994</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<referedAttribute>07C5F03D-9455-050D-8E87-1C59E9068C06</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciclo" id="4F50CCA0-C4DE-B2DF-8B8B-2775559CF96C">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 23:19:29 UTC</createdTime>
+<generatorID>5DA7F8BD-E665-CF63-205D-EB2A86F24994</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<referedAttribute>94025CB8-F1C9-3497-25D3-C9B653E48030</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_curso" id="12314054-4B37-C49A-3930-76232DCA49B2">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 23:58:44 UTC</createdTime>
+<generatorID>5DA7F8BD-E665-CF63-205D-EB2A86F24994</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<referedAttribute>EEBF1B86-48C8-87BC-3469-7C3D6F86B03C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="28542565-9702-85D6-9DBA-C5BA138972CA" name="HORARIO PK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 23:04:13 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0DCE6C1E-97A0-7CEF-AB3E-1AD3017E279B</attributeRef>
+<attributeRef>FD34A19A-F958-D196-D43C-DF4493B6216E</attributeRef>
+<attributeRef>50D40914-7612-CFD4-F089-FD63A98E47BD</attributeRef>
+<attributeRef>717EE930-4575-CE06-ECE7-9882A5F31668</attributeRef>
+<attributeRef>B4EEBFAA-29AD-B34A-5D9B-368BB652DD31</attributeRef>
+<attributeRef>7D380F8A-4C84-65FC-52FD-D434DC98C6E7</attributeRef>
+<attributeRef>4F50CCA0-C4DE-B2DF-8B8B-2775559CF96C</attributeRef>
+<attributeRef>12314054-4B37-C49A-3930-76232DCA49B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

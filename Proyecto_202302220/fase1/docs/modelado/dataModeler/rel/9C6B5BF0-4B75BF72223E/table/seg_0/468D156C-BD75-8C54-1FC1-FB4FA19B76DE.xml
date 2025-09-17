@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="468D156C-BD75-8C54-1FC1-FB4FA19B76DE" name="CATEDRATICO">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>E1315FC9-1044-E4A7-AF7B-B853297CB42F</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_catedratico" id="E7F7E7A3-4AE4-3469-AC20-6265AF12DB95">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>36038C51-B216-D78C-9C65-92701A043D3E</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="379C7729-4350-26C2-8D0C-CDB248E56967">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>F1ED7C43-1B2B-CE9F-2B9A-2F50B6929C0C</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sueldo_mensual" id="2ED77063-47EF-C06A-FFB3-159EAF5ADA13">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>BC6BF8F3-7C37-2AD5-0586-15AC18B3ECB6</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="952C830E-0309-0305-45FE-5EC20163C190" name="CATEDRATICO_PK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>90BCC592-BE9C-2FA5-5E46-943815996296</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7F7E7A3-4AE4-3469-AC20-6265AF12DB95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8386C94-26BD-1296-F6E9-25720D785BBE" name="ESTUDIANTE">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 22:23:34 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="carnet" id="847449DF-4EDF-775C-3BAD-81C7C88A34A2">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 22:24:05 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="AB068814-677B-989C-ADBD-51D87473C8DA">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 22:24:24 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="23C3DD20-DD83-C251-CBDD-6A9D96614F90">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 22:25:35 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ingreso_familiar" id="D4F05DDD-BE84-D870-5577-7B0C1D09D650">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 22:25:49 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C9D85101-0A18-9FDC-1889-862B634F45DF" name="ESTUDIANTE PK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 22:24:23 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>847449DF-4EDF-775C-3BAD-81C7C88A34A2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

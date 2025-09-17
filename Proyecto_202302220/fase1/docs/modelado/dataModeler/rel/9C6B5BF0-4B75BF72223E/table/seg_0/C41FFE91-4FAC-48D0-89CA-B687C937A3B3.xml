@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C41FFE91-4FAC-48D0-89CA-B687C937A3B3" name="ASIGNACION">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>376D8BEB-5DD4-D2D0-EB35-EB0E9B485E74</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="zona" id="9862D336-9C15-85F0-6EDE-B933B1B1CD02">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>D3EAA64E-62E3-CADC-30D1-7AF756286562</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota_final" id="9732F464-6796-D578-B863-7D185F46EDED">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>91158E9C-D2B0-467D-CD2F-F37F97364780</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTUDIANTE_carnet" id="F5E28D01-C0D6-D0E3-E3E3-E67F67AD6291">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>BEDBAB91-D0C8-E732-2606-B3CCA161014C</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14A5B7CE-60EC-19FE-C85B-83F42A9470A4" referredColumn="C8DA71DA-390A-59CA-10E2-A0E3FE5B6858"/>
+</associations>
+</Column>
+<Column name="SECCION_anio" id="A2BBA5B2-EAEB-F37C-FFEC-AB93B275B2A7">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>097AFE25-D600-7C9E-2DA1-992AAD985DA1</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0287750C-73DC-FE8D-AD4D-2C5FB3EEA8E9" referredColumn="4B3AA94C-5520-EF05-050F-58796757E974"/>
+</associations>
+</Column>
+<Column name="SECCION_id_seccion" id="DC3DD72E-46E6-37F4-C0E3-2452B1E18E7D">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>59D20FBD-64A2-4186-D45B-FEBA170E1BC3</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0287750C-73DC-FE8D-AD4D-2C5FB3EEA8E9" referredColumn="CA513E2F-6F46-6BE2-D54A-F5AEC8F6E0D8"/>
+</associations>
+</Column>
+<Column name="SECCION_ciclo" id="35E0F26C-5D67-AE56-7906-138A685A21A8">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>74074027-A36F-A688-5093-8014E7C0595A</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0287750C-73DC-FE8D-AD4D-2C5FB3EEA8E9" referredColumn="47628B16-57B2-19E4-6CFD-9FC34479491A"/>
+</associations>
+</Column>
+<Column name="SECCION_id_curso" id="C6568836-3EAD-1CEF-F366-D319084F0468">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>CF33807E-AC03-D731-61A4-29CC0426D0E2</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0287750C-73DC-FE8D-AD4D-2C5FB3EEA8E9" referredColumn="FC0F6DF3-37E4-AFA3-BF55-E370EEF6517B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8CCDDD2D-A19D-55F9-E8AD-7AC7C4D6EEC5" name="ASIGNACION_PK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>CCB2E046-8540-27AF-9279-ACB8B5833BA4</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5E28D01-C0D6-D0E3-E3E3-E67F67AD6291"/>
+<colUsage columnID="A2BBA5B2-EAEB-F37C-FFEC-AB93B275B2A7"/>
+<colUsage columnID="DC3DD72E-46E6-37F4-C0E3-2452B1E18E7D"/>
+<colUsage columnID="35E0F26C-5D67-AE56-7906-138A685A21A8"/>
+<colUsage columnID="C6568836-3EAD-1CEF-F366-D319084F0468"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76DF28E3-4EE8-4B5C-164B-1EE8210441E4" name="ASIGNACION_ESTUDIANTE_FK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>80CBF810-A7F1-3E5E-5CF5-C7176221230B</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5E28D01-C0D6-D0E3-E3E3-E67F67AD6291"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A709FA9B-3E2A-27F5-6300-671BA3C17272" name="ASIGNACION_SECCION_FK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>A5F041CF-102D-C639-B8E7-D2BC7E0CD7C3</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2BBA5B2-EAEB-F37C-FFEC-AB93B275B2A7"/>
+<colUsage columnID="DC3DD72E-46E6-37F4-C0E3-2452B1E18E7D"/>
+<colUsage columnID="35E0F26C-5D67-AE56-7906-138A685A21A8"/>
+<colUsage columnID="C6568836-3EAD-1CEF-F366-D319084F0468"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

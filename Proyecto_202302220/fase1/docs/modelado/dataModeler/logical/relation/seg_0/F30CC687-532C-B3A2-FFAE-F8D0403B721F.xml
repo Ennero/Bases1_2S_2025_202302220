@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTIENEv3" directorySegmentName="seg_0" id="F30CC687-532C-B3A2-FFAE-F8D0403B721F">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 23:53:31 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<sourcePk>704D754E-9B67-9B64-4651-A67EB7D3C06E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CBBEA2E5-99BE-06C0-AE71-37A488D9935B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A0D6751B-B18C-673E-5427-5211A3378E6E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

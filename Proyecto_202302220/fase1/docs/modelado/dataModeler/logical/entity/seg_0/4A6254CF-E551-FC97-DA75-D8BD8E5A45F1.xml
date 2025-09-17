@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4A6254CF-E551-FC97-DA75-D8BD8E5A45F1" name="SECCION">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 22:49:03 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_seccion" id="07C5F03D-9455-050D-8E87-1C59E9068C06">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 22:49:10 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio" id="3FA2085D-307C-8F2D-1BE7-F3F1E1AE8CE5">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 22:49:48 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciclo" id="94025CB8-F1C9-3497-25D3-C9B653E48030">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 22:50:08 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_curso" id="EEBF1B86-48C8-87BC-3469-7C3D6F86B03C">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 23:58:44 UTC</createdTime>
+<generatorID>A161514E-61C5-424D-B159-B9EF3DB68D45</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<referedAttribute>9FD84096-CB62-2D47-01D2-6185C8230623</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_catedratico" id="376274C4-34A0-9E9A-D9F5-B017EA324ED0">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:25:41 UTC</createdTime>
+<generatorID>7F7D91D5-86CA-E1B6-5BEC-263C237ACB52</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<referedAttribute>36038C51-B216-D78C-9C65-92701A043D3E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C30CCB8A-941A-2294-2CAF-3E24A08F95D0" name="SECCION PK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 22:50:05 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3FA2085D-307C-8F2D-1BE7-F3F1E1AE8CE5</attributeRef>
+<attributeRef>07C5F03D-9455-050D-8E87-1C59E9068C06</attributeRef>
+<attributeRef>94025CB8-F1C9-3497-25D3-C9B653E48030</attributeRef>
+<attributeRef>EEBF1B86-48C8-87BC-3469-7C3D6F86B03C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

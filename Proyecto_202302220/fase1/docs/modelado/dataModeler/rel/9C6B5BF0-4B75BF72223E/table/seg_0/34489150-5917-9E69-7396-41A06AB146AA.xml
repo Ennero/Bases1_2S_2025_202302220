@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34489150-5917-9E69-7396-41A06AB146AA" name="SECCION">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>4A6254CF-E551-FC97-DA75-D8BD8E5A45F1</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_seccion" id="CA513E2F-6F46-6BE2-D54A-F5AEC8F6E0D8">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>07C5F03D-9455-050D-8E87-1C59E9068C06</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio" id="4B3AA94C-5520-EF05-050F-58796757E974">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>3FA2085D-307C-8F2D-1BE7-F3F1E1AE8CE5</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciclo" id="47628B16-57B2-19E4-6CFD-9FC34479491A">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>94025CB8-F1C9-3497-25D3-C9B653E48030</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSO_id_curso" id="FC0F6DF3-37E4-AFA3-BF55-E370EEF6517B">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>EEBF1B86-48C8-87BC-3469-7C3D6F86B03C</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39A330D1-8FD2-23B0-3988-A0B11B5FFE6D" referredColumn="883446C9-B4E7-5B2B-30E4-E51A26853B9C"/>
+</associations>
+</Column>
+<Column name="CATEDRATICO_id_catedratico" id="FDA8DC44-56CC-3EB0-23CC-E6A1A1C7EB0B">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>376274C4-34A0-9E9A-D9F5-B017EA324ED0</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0862C01C-923C-7569-BCE3-8093D1FF5B49" referredColumn="E7F7E7A3-4AE4-3469-AC20-6265AF12DB95"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CE355D2-4643-58E6-5187-B3D9A6DA7B42" name="SECCION_PK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>C30CCB8A-941A-2294-2CAF-3E24A08F95D0</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B3AA94C-5520-EF05-050F-58796757E974"/>
+<colUsage columnID="CA513E2F-6F46-6BE2-D54A-F5AEC8F6E0D8"/>
+<colUsage columnID="47628B16-57B2-19E4-6CFD-9FC34479491A"/>
+<colUsage columnID="FC0F6DF3-37E4-AFA3-BF55-E370EEF6517B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D39F7C8-9FCB-518A-464A-A32275F92085" name="SECCION_CATEDRATICO_FK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>7F7D91D5-86CA-E1B6-5BEC-263C237ACB52</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDA8DC44-56CC-3EB0-23CC-E6A1A1C7EB0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B219EB11-2D9D-0AFB-D566-4FF81DBAF12E" name="SECCION_CURSO_FK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>A161514E-61C5-424D-B159-B9EF3DB68D45</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC0F6DF3-37E4-AFA3-BF55-E370EEF6517B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

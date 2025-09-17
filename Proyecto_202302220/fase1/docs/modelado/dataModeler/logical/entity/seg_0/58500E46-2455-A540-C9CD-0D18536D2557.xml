@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58500E46-2455-A540-C9CD-0D18536D2557" name="INSCRIPCION">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 22:40:56 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="carnet" id="3C706378-9071-4FCE-F7FE-A33617510A1C">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 23:46:28 UTC</createdTime>
+<generatorID>B907CFDA-92EF-9122-8A57-8549F1EB090F</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<referedAttribute>847449DF-4EDF-775C-3BAD-81C7C88A34A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_carrera" id="329DC52A-2E8B-A4B4-E983-6A8ACC0792A6">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 23:47:41 UTC</createdTime>
+<generatorID>ECB9C736-A2F8-F74B-CF58-F1A2727B64BD</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<referedAttribute>126FBA95-7E39-3EDF-C3B9-28DD1A585CA4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inscripcion" id="44B82FBC-15CD-4347-C372-85163D8E8167">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:34:48 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5FBE503B-D3E5-8AF2-C5C4-5D47675A744C" name="INSCRIPCION PK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-16 23:46:28 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3C706378-9071-4FCE-F7FE-A33617510A1C</attributeRef>
+<attributeRef>329DC52A-2E8B-A4B4-E983-6A8ACC0792A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0287750C-73DC-FE8D-AD4D-2C5FB3EEA8E9" containerWithKeyObject="C41FFE91-4FAC-48D0-89CA-B687C937A3B3" localFKIndex="A709FA9B-3E2A-27F5-6300-671BA3C17272" name="ASIGNACION_SECCION_FK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>A5F041CF-102D-C639-B8E7-D2BC7E0CD7C3</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<referredTableLongName>SECCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>34489150-5917-9E69-7396-41A06AB146AA</referredTableID>
+<keyObject>5CE355D2-4643-58E6-5187-B3D9A6DA7B42</keyObject>
+<referredKeyID>5CE355D2-4643-58E6-5187-B3D9A6DA7B42</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>anio,id_seccion,ciclo,CURSO_id_curso</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

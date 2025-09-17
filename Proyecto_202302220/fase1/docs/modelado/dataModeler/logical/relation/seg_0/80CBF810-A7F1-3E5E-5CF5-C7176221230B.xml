@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ASIGNADO" directorySegmentName="seg_0" id="80CBF810-A7F1-3E5E-5CF5-C7176221230B">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:04:41 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<sourcePk>C9D85101-0A18-9FDC-1889-862B634F45DF</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D8386C94-26BD-1296-F6E9-25720D785BBE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>376D8BEB-5DD4-D2D0-EB35-EB0E9B485E74</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

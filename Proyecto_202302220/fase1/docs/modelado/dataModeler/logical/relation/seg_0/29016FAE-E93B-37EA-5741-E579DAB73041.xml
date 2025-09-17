@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTENIDA EN " directorySegmentName="seg_0" id="29016FAE-E93B-37EA-5741-E579DAB73041">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:37:12 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="9C6B5BF0-4FCA-2F02-5B98-4B75BF72223E" value="true"/>
+</engineerTo>
+<sourcePk>0A7DFF56-9A9C-AFB8-A15F-B9E8E8F8F8AE</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>11491B8D-AAA2-3A2D-FFA2-C542CBF9CA24</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CBBEA2E5-99BE-06C0-AE71-37A488D9935B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

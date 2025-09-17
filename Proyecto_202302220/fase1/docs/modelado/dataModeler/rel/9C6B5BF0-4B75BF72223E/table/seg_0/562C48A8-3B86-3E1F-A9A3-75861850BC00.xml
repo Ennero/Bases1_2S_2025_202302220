@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="562C48A8-3B86-3E1F-A9A3-75861850BC00" name="INSCRIPCION">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>58500E46-2455-A540-C9CD-0D18536D2557</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ESTUDIANTE_carnet" id="E7130359-C46F-C540-5F59-3D5C806AA896">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>3C706378-9071-4FCE-F7FE-A33617510A1C</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="992B8392-1CFA-8A9F-D3AD-4F5B3364177D" referredColumn="C8DA71DA-390A-59CA-10E2-A0E3FE5B6858"/>
+</associations>
+</Column>
+<Column name="CARRERA_id_carrera" id="671B6518-FFE0-6D04-FC1E-FE6DE69B88DA">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>329DC52A-2E8B-A4B4-E983-6A8ACC0792A6</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A21FE590-BBBE-4A5B-026B-37BD1668134F" referredColumn="0BC4BF09-D34B-B989-1CF8-196BCCFA13BE"/>
+</associations>
+</Column>
+<Column name="fecha_inscripcion" id="4328ACA4-AD7F-467C-EE10-14B20CDDA58F">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>44B82FBC-15CD-4347-C372-85163D8E8167</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="709EE7E6-2197-5844-8181-B95AD033B39A" name="INSCRIPCION_PK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>5FBE503B-D3E5-8AF2-C5C4-5D47675A744C</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7130359-C46F-C540-5F59-3D5C806AA896"/>
+<colUsage columnID="671B6518-FFE0-6D04-FC1E-FE6DE69B88DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E7A42A9-10FF-14BB-D23B-F2E8AA4B386B" name="INSCRIPCION_CARRERA_FK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>ECB9C736-A2F8-F74B-CF58-F1A2727B64BD</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="671B6518-FFE0-6D04-FC1E-FE6DE69B88DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F4CB288-6FE8-5E7A-F9ED-ADF3420FAD4E" name="INSCRIPCION_ESTUDIANTE_FK">
+<createdBy>Enner</createdBy>
+<createdTime>2025-09-17 00:47:19 UTC</createdTime>
+<generatorID>B907CFDA-92EF-9122-8A57-8549F1EB090F</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7130359-C46F-C540-5F59-3D5C806AA896"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
