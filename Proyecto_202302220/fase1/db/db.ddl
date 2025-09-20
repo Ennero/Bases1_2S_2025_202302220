@@ -1,5 +1,5 @@
 -- Generado por Oracle SQL Developer Data Modeler 24.3.1.351.0831
---   en:        2025-09-16 18:59:15 CST
+--   en:        2025-09-17 16:57:52 CST
 --   sitio:      Oracle Database 21c
 --   tipo:      Oracle Database 21c
 
@@ -123,8 +123,8 @@ ALTER TABLE PENSUM
 CREATE TABLE PERIODO 
     ( 
      id_periodo  INTEGER  NOT NULL , 
-     hora_inicio DATE  NOT NULL , 
-     hora_fin    DATE  NOT NULL 
+     hora_inicio VARCHAR2 (100)  NOT NULL , 
+     hora_fin    VARCHAR2 (100)  NOT NULL 
     ) 
 ;
 
