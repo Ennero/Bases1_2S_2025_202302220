@@ -1,68 +1,34 @@
-<div align="center">
+# Modelado y prácticas de bases de datos relacionales
 
-# 🗄️ Relational Database Management System & SQL Parser (Bases 1)
+Entregas de Bases de Datos 1 con modelos de Oracle SQL Developer Data Modeler, definición de tablas y scripts SQL. El repositorio contiene diseños y consultas; no implementa un motor SQL propio.
 
-**Modelado entidad-relación, normalización de esquemas relacionales y parser de consultas SQL con Yacc/Bison.**
+## Requisitos
 
-[![Language](https://img.shields.io/badge/Language-Yacc,%20SQL,%20C++-blue?style=for-the-badge)](https://github.com/Ennero/Bases1_2S_2025_202302220)
-[![Course](https://img.shields.io/badge/Course-Sistemas%20de%20Bases%20de%20Datos%201-003366?style=for-the-badge)](https://ingenieria.usac.edu.gt/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+Oracle Database y un cliente SQL compatible. Para editar los archivos .dmd, usar SQL Developer Data Modeler. Crear un esquema de pruebas independiente antes de ejecutar DDL.
 
-</div>
+## Ejecución
 
----
+Los comandos parten de la raíz del repositorio, salvo donde se indica otra terminal.
 
-
-## 📌 Descripción General
-
-Este repositorio contiene la implementación y entrega de **🗄️ Relational Database Management System & SQL Parser (Bases 1)**, desarrollado en el curso de **Sistemas de Bases de Datos 1** en la Universidad de San Carlos de Guatemala.
-
-- **Objetivo:** Modelado entidad-relación, normalización de esquemas relacionales y parser de consultas SQL con Yacc/Bison.
-- **Stack Principal:** `Yacc, SQL, C++`.
-- **Área:** Ciencias de la Computación, Algoritmos y Desarrollo de Software.
-
----
-
-## 🚀 Características y Componentes
-
-- Implementación modular y buenas prácticas de codificación.
-- Manejo estructurado de datos, control de flujo y validaciones.
-- Documentación y scripts de soporte para compilación o ejecución.
-
----
-
-## 📦 Estructura del Proyecto
-
-```
-Bases1_2S_2025_202302220/
-├── src/ o archivos de código fuente
-├── docs/ (si aplica)
-├── .gitignore
-├── LICENSE
-└── README.md
+```bash
+# Desde SQLcl o SQL*Plus, conectado a un esquema de prácticas:
+@Practica1_202302220/db/ddl.sql
 ```
 
----
+## Recorrido de demostración
 
-## ⚙️ Requisitos y Ejecución
+Abrir el modelo de la práctica, revisar sus entidades y relaciones y ejecutar el DDL en un esquema vacío. Comprobar tablas, llaves primarias y referencias usando el catálogo de Oracle. Revisar cada script antes de aplicarlo: puede crear o reemplazar objetos.
 
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/Ennero/Bases1_2S_2025_202302220.git
-   cd Bases1_2S_2025_202302220
-   ```
-2. Ejecutar según el entorno (`Yacc, SQL, C++`):
-   - Consultar los scripts o archivos principales del proyecto para parámetros específicos.
+## Organización
 
----
+Carpetas de la entrega: [`Practica1_202302220/`](Practica1_202302220/), [`Practica2_202302220/`](Practica2_202302220/), [`Proyecto_202302220/`](Proyecto_202302220/).
 
-## 📄 Licencia
+## Alcance y límites
 
-Este proyecto está bajo la Licencia **MIT**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+Cada entrega es independiente y puede necesitar datos iniciales propios. Los scripts no son migraciones de una aplicación web ni un parser SQL.
 
----
+## Contexto y licencia
 
-## 👨‍💻 Autor
+Trabajo académico o de aprendizaje conservado en el portafolio de [Enner Mendizabal](https://github.com/Ennero). Los créditos de los trabajos en grupo se conservan en sus entregas y manuales.
 
-- **Enner Mendizabal** - [@Ennero](https://github.com/Ennero)  
-- *Facultad de Ingeniería, Universidad de San Carlos de Guatemala.*
+Consultar [LICENSE](LICENSE) para la licencia de la raíz. Las dependencias y los componentes con avisos o licencias propios conservan sus condiciones.
